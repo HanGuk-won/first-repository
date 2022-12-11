@@ -1,5 +1,1 @@
-# first-repository
-# first-repository
-## git config
-## git config
-## test
+This Github contains educational contents studied from AI innovation school "AIFFEL" by myself.
