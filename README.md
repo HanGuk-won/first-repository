@@ -2,7 +2,7 @@ This Github contains educational contents studied from AI innovation school "AIF
 and some physics simulation code by myself or 
 algorithms for also educational purpose.
  
-<b> Usage ipynb notebook </b> 
+<b> Usage of *.ipynb.zip files </b> 
   
 1. download the *.ipynb.zip files  
 2. Unzip the *.ipynb.zip files  
