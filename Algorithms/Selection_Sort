@@ -1,3 +1,8 @@
+#include <iostream.h>
+#include <time.h>
+#include <stdlib.h>
+
+
 inline void swap(int a[], int i, int j)
 {
   int t = a[i]; a[i] = a[j]; a[j] = t;
@@ -6,13 +11,15 @@ inline void swap(int a[], int i, int j)
 void CheckSort(int a[], int n)
 {
   int i, Sorted;
-  Sorted = TRUE;
+  Sorted = 1;
   for (i=1; i<n; i++){
-    if (a[i]>a[i+1]) Sorted = FALSE;
+    if (a[i]>a[i+1]) Sorted = 0;
     if (!Sorted) break;
     }
-  if (Sorted) cout << "Sort Finished Successfully." << endl;
-  else cout << "Sort error Occured." << endl;
+  if (Sorted) 
+  std::cout << "Sort Finished Successfully." << std::endl;
+  else 
+  std::cout << "Sort error Occured." << std::endl;
 }
 
 void SelectionSort(int a[], int n)
@@ -28,6 +35,7 @@ for (i=1; i<n; i++) {
 
 main()
 {
+  int N = 10;
   int i, a[N+1];
   double start_time;
   
