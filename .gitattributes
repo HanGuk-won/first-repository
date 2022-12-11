@@ -1,3 +1,4 @@
-*.cpp linguist-detectable=True
-*.py linguist-detectable=True
-*.jsp linguist-detectable=True
+* linguist-vendored
+*.cpp linguist-vendored=False
+*.py linguist-vendored=False
+*.jsp linguist-vendored=False
