@@ -7,7 +7,7 @@ algorithms for also educational purpose.
 1. download the *.ipynb.zip files  
 2. Unzip the *.ipynb.zip files  
 3. upload files to your jupyter notebook 
-4. click the checkbox of left of file name 
+4. click the checkbox of left of each file name 
 5. click the 'rename' button 
 6. remove '.txt' string 
 7. click the 'rename' button 
