@@ -1,4 +1,4 @@
 * linguist-vendored
 *.cpp linguist-vendored=False
-*.py linguist-vendored=False
-*.jsp linguist-vendored=False
+*.python linguist-vendored=False
+*.java linguist-vendored=False
