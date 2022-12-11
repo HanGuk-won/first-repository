@@ -1,2 +1,2 @@
 unzip -uq A.zip -d ~/aiffel/folder
-find .-name "*A*" | sed -e 'p' -e "s/A/B/g" | xargs -n2 mv
+find ./ -name "*A*" | sed -e 'p' -e "s/A/B/g" | xargs -n2 mv
