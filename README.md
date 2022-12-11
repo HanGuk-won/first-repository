@@ -11,5 +11,5 @@ algorithms for also educational purpose.
 5. click the 'rename' button 
 6. remove '.txt' string 
 7. click the 'rename' button 
-8. click the file name and you can see 
-the contents of this file   
+8. click the files names and you can see 
+the contents of these files   
