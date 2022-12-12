@@ -32,4 +32,21 @@ void QuickSort(int a[], int l, int r)
     }
     swap(a, i, r);
     QuickSort(a, l, i-1);
-    QuickSort
+    QuickSort(a, i+1, r);
+  }
+}
+
+main()
+{
+  int i, a[N+1];
+  double start_time;
+  
+  a[0] = -1;
+  srand(time(NULL));
+  for (i=1; i<=N; i++) a[i] = rand();
+  start_time = clock();
+  QuickSort(a, 1, r);
+  cout << "작은 부분화일을 고려한 퀵 정렬의 실행 시간 (N = " << N << ") : " <<
+    clock()-start_time << endl;
+  CheckSort(a, N);
+}
