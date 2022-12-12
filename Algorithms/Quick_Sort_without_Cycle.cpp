@@ -36,7 +36,7 @@ void QuickSort(int a[], int l, int r)
   int i;
   Stack sf(50);
   for(;;) {
-    while(r>1) {
+    while(r>l) {
       i = partition(a, l, r);
       if (i-l>r-i) {
         sf.push(l); sf.push(i-1); l=i+1;
