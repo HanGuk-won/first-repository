@@ -1,6 +1,6 @@
 <b>Usage of these files</b>
 
-1. Upload these files to your jupyter notebook
+1. Upload these files to your jupyter notebook (
 2. make two folders as containers of input images 
 3. Unzip 'observe_train_refined_with_datetime.zip'
 4. Reload this file as *.csv by removing some string using rename button
